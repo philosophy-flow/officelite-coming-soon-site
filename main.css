@@ -47,3 +47,8 @@ h2 {
 .countdown small {
   font-size: 0.75rem;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+}
