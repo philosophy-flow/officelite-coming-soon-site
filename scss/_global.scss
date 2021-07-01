@@ -10,11 +10,6 @@
   padding: 0;
 }
 
-html {
-  font-family: 'Kumbh Sans', sans-serif;
-  font-size: 16px;
-}
-
 ul {
   list-style: none;
 }
@@ -45,3 +40,27 @@ $darkColor: #25293A;
 $darkGrey: #333950;
 $lightGrey: #747B95;
 $red: #F05B5B;
+
+
+
+// ----------------------------------------------------------------------------
+// FONT SIZES -----------------------------------------------------------------
+// ----------------------------------------------------------------------------
+
+html {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1 {font-size: 2.5rem;}
+
+h2 {font-size: 1.25rem;}
+
+.pricing {
+  strong {font-size: 3.5rem;}
+}
+
+.countdown {
+  strong {font-size: 2rem;}
+  small {font-size: .75rem;}
+}
