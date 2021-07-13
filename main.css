@@ -49,6 +49,10 @@ h2 {
   font-size: 0.75rem;
 }
 
+body {
+  position: relative;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -152,7 +156,7 @@ header::before {
   background-color: #fff;
 }
 .home .countdown {
-  border: 1px solid red;
+  padding: 0 0 6.25rem;
 }
 .home .countdown p {
   margin: 0 0 2.25rem;
@@ -160,9 +164,20 @@ header::before {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.3125rem;
+  color: #fff;
 }
 .home .countdown p span {
   color: #5175FF;
+}
+.home .countdown a {
+  display: block;
+  width: 172px;
+  padding: 1.25rem 2.57rem;
+  background-color: #5175FF;
+  border-radius: 1.75rem;
+  color: #fff;
+  font-weight: bold;
+  margin: 2.5rem auto 0;
 }
 .home .countdown .timer {
   display: flex;
@@ -185,15 +200,17 @@ header::before {
 .home .countdown .time-block:last-child {
   margin: 0;
 }
-.home a {
-  display: block;
-  width: 172px;
-  padding: 1.25rem 2.57rem;
-  background-color: #5175FF;
-  border-radius: 1.75rem;
-  color: #fff;
-  font-weight: bold;
-  margin: 2.5rem auto 6.25rem;
+
+.home-footer {
+  background-color: #25293A;
+  height: 78rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1000;
+  background-image: url("../assets/shared/bg-pattern-footer.svg");
+  background-size: cover;
+  background-position: bottom;
 }
 
 header {

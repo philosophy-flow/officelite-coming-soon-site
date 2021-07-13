@@ -1,5 +1,9 @@
 @use 'global';
 
+body {
+  position: relative;
+}
+
 
 header {
   display: flex;
@@ -124,7 +128,7 @@ header {
   }
 
   .countdown {
-    border: 1px solid red;
+    padding: 0 0 6.25rem;
 
     p {
       margin: 0 0 2.25rem;
@@ -132,11 +136,22 @@ header {
       text-transform: uppercase;
       font-weight: bold;
       letter-spacing: .3125rem;
-      // color: #fff;
+      color: #fff;
 
       span {
         color: global.$blue;
       }
+    }
+
+    a {
+      display: block;
+      width: 172px;
+      padding: 1.25rem 2.57rem;
+      background-color: global.$blue;
+      border-radius: 1.75rem;
+      color: #fff;
+      font-weight: bold;
+      margin: 2.5rem auto 0;
     }
 
     .timer {
@@ -166,16 +181,18 @@ header {
     }
   }
 
-  a {
-    display: block;
-    width: 172px;
-    padding: 1.25rem 2.57rem;
-    background-color: global.$blue;
-    border-radius: 1.75rem;
-    color: #fff;
-    font-weight: bold;
-    margin: 2.5rem auto 6.25rem;
-  }
+
 }
 
-footer {}
+.home-footer {
+  background-color: global.$darkColor;
+  height: 78rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1000;
+
+  background-image: url("../assets/shared/bg-pattern-footer.svg");
+  background-size: cover;
+  background-position: bottom;
+}
