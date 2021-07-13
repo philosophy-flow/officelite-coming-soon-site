@@ -72,6 +72,7 @@ header::before {
 
 .home {
   margin: 0 6.4%;
+  text-align: center;
 }
 .home .banner {
   margin: 0 0 6.25rem;
@@ -80,9 +81,6 @@ header::before {
   width: 53%;
   max-width: 250px;
   margin: 0 auto 4rem;
-}
-.home .banner .banner-text {
-  text-align: center;
 }
 .home .banner h1 {
   color: #25293A;
@@ -195,6 +193,7 @@ header::before {
 }
 .home .countdown .time-block small {
   margin: 0.75rem 0 0 0;
+  font-weight: bold;
   opacity: 0.5;
 }
 .home .countdown .time-block:last-child {
@@ -216,4 +215,67 @@ header::before {
 header {
   display: flex;
   justify-content: center;
+}
+
+.signup {
+  margin: 0 6.4%;
+}
+.signup .banner {
+  margin: 0 0 4rem;
+  text-align: center;
+}
+.signup .banner h1 {
+  color: #25293A;
+  line-height: 120%;
+  margin: 0 0 1.5rem;
+}
+.signup .banner p {
+  color: #747B95;
+  line-height: 162%;
+  margin: 0 0 1.5rem;
+}
+.signup .banner a {
+  display: inline-block;
+  padding: 1.25rem 2.57rem;
+  background-color: #5175FF;
+  border-radius: 1.75rem;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+}
+.signup .countdown {
+  margin: 0 0 4rem;
+}
+.signup .countdown p {
+  margin: 0 0 2.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3125rem;
+}
+.signup .countdown p span {
+  color: #5175FF;
+}
+.signup .countdown .timer {
+  display: flex;
+  justify-content: space-between;
+}
+.signup .countdown .time-block {
+  margin: 0 0.75rem 0 0;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 1rem;
+  color: #5175FF;
+  background-color: rgba(81, 117, 255, 0.15);
+}
+.signup .countdown .time-block small {
+  margin: 0.75rem 0 0 0;
+  opacity: 0.5;
+  color: #25293A;
+  font-weight: bold;
+}
+.signup .countdown .time-block:last-child {
+  margin: 0;
 }

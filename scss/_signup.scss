@@ -6,9 +6,83 @@ header {
 }
 
 .signup {
-  .banner {}
-  .pricing {}
+  margin: 0 6.4%;
+
+  .banner {
+    margin: 0 0 4rem;
+    text-align: center;
+
+    h1 {
+      color: global.$darkColor;
+      line-height: 120%;
+      margin: 0 0 1.5rem;
+    }
+
+    p {
+      color: global.$lightGrey;
+      line-height: 162%;
+      margin: 0 0 1.5rem;
+    }
+
+    a {
+      display: inline-block;
+      padding: 1.25rem 2.57rem;
+      background-color: global.$blue;
+      border-radius: 1.75rem;
+      color: #fff;
+      font-weight: bold;
+      box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+    }
+  }
+
+  .countdown {
+    margin: 0 0 4rem;
+
+    p {
+      margin: 0 0 2.25rem;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: .3125rem;
+
+      span {
+        color: global.$blue;
+      }
+    }
+
+
+    .timer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .time-block {
+      margin: 0 .75rem 0 0;
+      border-radius: .25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.25rem 1rem;
+      color: global.$blue;
+
+      background-color: rgba(81, 117, 255, .15);
+
+      small {
+        margin: .75rem 0 0 0;
+        opacity: .5; 
+        color: global.$darkColor;
+        font-weight: bold;
+      }
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
   form {}
 }
 
 footer {}
+
+

@@ -25,6 +25,7 @@ header {
 
 .home {
   margin: 0 6.4%;
+  text-align: center;
 
   .banner {
     margin: 0 0 6.25rem;
@@ -33,10 +34,6 @@ header {
       width: 53%;
       max-width: 250px;
       margin: 0 auto 4rem;
-    }
-
-    .banner-text {
-      text-align: center;
     }
 
     h1 {
@@ -172,6 +169,7 @@ header {
 
       small {
         margin: .75rem 0 0 0;
+        font-weight: bold;
         opacity: .5; 
       }
 
