@@ -99,6 +99,58 @@ header::before {
   font-weight: bold;
   box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
 }
+.home .pricing {
+  margin: 0 auto 6.25rem;
+  max-width: 43rem;
+}
+.home .price-tier {
+  border-radius: 0.8125rem;
+  background-color: #fff;
+  box-shadow: 0px 10px 50px -25px rgba(75, 92, 154, 0.247159);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #25293A;
+}
+.home .price-tier h2 {
+  margin: 2.5rem 0;
+}
+.home .price-tier p {
+  margin: 1rem 0 4rem;
+}
+.home .price-tier li {
+  margin: 0 0 1.25rem;
+  color: #747B95;
+  font-weight: lighter;
+}
+.home .price-tier li:last-child {
+  margin: 0;
+}
+.home .price-tier a {
+  margin: 2rem 0 2.5rem;
+  display: inline-block;
+  padding: 1.25rem 2.57rem;
+  background-color: rgba(81, 117, 255, 0.15);
+  border-radius: 1.75rem;
+  color: #5175FF;
+  font-weight: bold;
+}
+.home .price-tier:nth-child(2) {
+  background-color: #5175FF;
+  background-image: url("../assets/home/bg-pattern-pricing.svg");
+  background-position: bottom;
+  margin: 2rem 0;
+  color: #fff;
+}
+.home .price-tier:nth-child(2) li {
+  color: #fff;
+  opacity: 0.75;
+}
+.home .price-tier:nth-child(2) a {
+  background-color: #fff;
+}
 header {
   display: flex;
   justify-content: center;
