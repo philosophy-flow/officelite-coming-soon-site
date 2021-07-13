@@ -1,12 +1,66 @@
 @use 'global';
 
+
 header {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 2.875rem 0 5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    height: 28.75rem;
+    width: 100%;
+    background-image: url("../assets/shared/bg-pattern-header.svg");
+    background-position: center;
+    background-size: cover;
+    z-index: -100;
+  }
 }
 
 .home {
-  .banner {}
+  margin: 0 6.4%;
+
+  .banner {
+    margin: 0 0 6.25rem;
+    
+    img {
+      width: 53%;
+      max-width: 250px;
+      margin: 0 auto 4rem;
+    }
+
+    .banner-text {
+      text-align: center;
+    }
+
+    h1 {
+      color: global.$darkColor;
+      line-height: 120%;
+      margin: 0 0 1.5rem;
+    }
+
+    p {
+      color: global.$lightGrey;
+      line-height: 162%;
+      margin: 0 0 1.5rem;
+    }
+
+    a {
+      display: inline-block;
+      padding: 1.25rem 2.57rem;
+      background-color: global.$blue;
+      border-radius: 1.75rem;
+      color: #fff;
+      font-weight: bold;
+      box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+    }
+  }
+
+
+
+
   .pricing {}
   .countdown {}
 }
